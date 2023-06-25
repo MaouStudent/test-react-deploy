@@ -6,22 +6,22 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 
-import Header from "./components/Header";
-import Home from "./pages/Home";
-import BookView from "./pages/BookView";
-import NotFound from "./pages/NotFound";
-import ReadView from "./pages/ReadView";
+// import Header from "./components/Header";
+// import Home from "./pages/Home";
+// import BookView from "./pages/BookView";
+// import NotFound from "./pages/NotFound";
+// import ReadView from "./pages/ReadView";
 
 export default function App(): JSX.Element {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Routes>
-        <Route path={"/"} element={<Home />} />
+        {/* <Route path={"/"} element={<Home />} />
         <Route path={"/home"} element={<Home />} />
         <Route path="/product" element={<BookView />} />
         <Route path="/read" element={<ReadView />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </Router>
   );
